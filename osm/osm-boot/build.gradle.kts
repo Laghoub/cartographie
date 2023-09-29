@@ -30,4 +30,6 @@ dependencies {
   implementation("com.github.ben-manes.caffeine:caffeine:${property("version.caffeine")}")
 
   implementation("mil.nga.sf:sf-geojson:${property("version.sf-geojson")}")
+  implementation("org.hibernate:hibernate-core:6.0.0.Final")
+  implementation("org.locationtech.jts:jts-core:1.18.2")
 }
